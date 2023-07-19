@@ -9,10 +9,12 @@ ul{
 }
 .one{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 15px;
 }
-ul li{
+
+
+ul  li{
     margin-left: 15px;
     color: #3C354F;
 text-align: center;
@@ -21,12 +23,16 @@ font-size: 18px;;
 font-weight: 500;
 
 }
+.soma{
+    display: flex;
+}
 .num{
     
 font-family: Work Sans;
 font-size: 45px;
 padding-bottom: 15px;
 font-weight: 700;
+
 
 }
 .tui{
@@ -35,7 +41,18 @@ font-weight: 700;
 .naf{
     width: 86.041px;
 height: 40px;
-padding-top: 20px;
+padding-top:;
+}
+.or{
+    color: #3C354F;
+    text-align: center;
+   border: 0px;
+   font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+width: 102px;
+height: 56px;
+background-color: white;
 }
 .btn{
     color: #3C354F;
@@ -144,12 +161,26 @@ font-weight: 600;
     font-size: 20px;
     font-weight: 500;
 }
+
+.easy{
+    height: 90%;
+    margin-left: 130px;
+}
 .dot{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: end;
     margin-top: 25px;
+}
+.tough{
+    width: 318.5px;
+height: 365.083px;
+flex-shrink: 0;
+text-align: left;
+position: relative;
+bottom: 280px;
+
 }
 .sufia{
     color: #0B0223;
@@ -161,7 +192,7 @@ border: 0px;
 margin-left: 40px;
 }
 .kamal{
-    margin: 130px 245px 55px;
+    margin: -170px 5px 55px;
     text-align: center;
 }
 .jamal{
